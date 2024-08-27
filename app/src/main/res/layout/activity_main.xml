@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Новость 1:\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie, nulla ac rhoncus suscipit, odio nisl rhoncus dui, quis facilisis est augue sed sem. Donec neque arcu, maximus pretium maximus et, venenatis at sem. Vivamus placerat, ante quis fermentum vulputate, felis purus ultrices odio, vel ullamcorper nulla nisi at odio. Sed blandit lacinia ipsum et cursus. Pellentesque ullamcorper tortor eu orci convallis pretium. Nam eget maximus neque. Pellentesque et elementum dolor, eget laoreet metus. In at nisl quam. Nullam sollicitudin lobortis finibus. Nam dignissim, nibh sit amet finibus imperdiet, nulla odio posuere turpis, vitae molestie augue erat a magna."
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Новость 2:\nNulla posuere nisl nisi, eu rhoncus felis lobortis id. Morbi nec nunc nec nulla volutpat aliquam sit amet nec dui. Sed rutrum interdum metus eget ultricies. Praesent hendrerit odio at ipsum bibendum, eu ornare nibh dictum. Vestibulum id magna eget ligula auctor ultricies eget non quam. Maecenas id neque augue. Ut varius dictum dolor, et scelerisque ante ultrices congue. Nulla facilisi. Suspendisse eget dui enim."
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Новость 3:\Ut mattis libero non metus dictum egestas. Etiam sed tortor tristique, viverra justo ut, rhoncus magna. Maecenas eget posuere urna. Etiam bibendum, arcu nec volutpat facilisis, arcu risus fringilla ipsum, nec aliquet enim ex id lorem. Praesent in ipsum id tellus posuere suscipit. Duis iaculis suscipit erat ac volutpat. Sed quis convallis mi, ut congue sem. Nunc id iaculis justo. Suspendisse pharetra, risus quis feugiat elementum, sapien ante fringilla purus, at vulputate dui neque at nulla. Nullam sed elementum est. Aliquam malesuada a leo in porta. Nulla ac nulla a lectus congue mollis non in dolor. Praesent neque nunc, accumsan sit amet hendrerit quis, fringilla ut nibh. Sed nisi eros, ultricies in nunc at, tincidunt bibendum diam. Sed leo lacus, viverra ut arcu in, posuere porta sem."
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Новость 4:\nVestibulum eleifend rhoncus venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque quis leo eget ante efficitur feugiat sit amet eget risus. Integer enim nibh, porta non felis non, euismod vulputate orci. Aliquam luctus purus tristique purus efficitur, non pellentesque mauris sollicitudin. Ut mollis tempor nisl, luctus volutpat massa aliquet in. Sed sed tincidunt odio, at auctor elit."
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
